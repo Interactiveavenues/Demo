@@ -1,0 +1,42 @@
+.c-product-zoom-box { margin-top:45px;    
+    .zoom-box { position:relative; 
+        img { width:100%;} 
+       
+            .right-bottom-box { position:absolute; right:10px; bottom:10px; cursor:pointer;}
+    }
+ 
+    .zoom-list {
+        ul{ margin:0; padding:0;
+            li{ float:left; display:inline-block; float:left; width:100%;
+                img{ width:100%; padding:10px 5px;}
+            
+            }        
+        }
+        
+    }
+    .slick-slide { height:auto;}
+    
+    
+    @include breakpoint(767) { 
+        overflow:hidden;
+    }
+    
+}
+
+ .left-top-box { background-color:#fbc531; padding:5px 15px; position:absolute; display: inline-block; font-family:$open-sans-600; font-size:14px; color:$dark-grey; text-align: center;
+     left:0; top:10px;
+            .left-top-box-text { }
+     &:after { content:""; position:absolute; right:-25px; top:0;  padding:5px; 
+            font-size: 0px; line-height: 0%; width: auto;  border-top: 24px solid #fbc531;
+border-right: 24px solid transparent;}
+                 
+        }
+
+.c-all-reviews {
+    a.global-button-white { margin-bottom:30px !important;}
+}
+
+.zoom-thumb-slider .slick-track {  margin-left:0;}
+.c-product-zoom-box .zoom-box a { cursor:auto;}
+.c-product-zoom-box .zoom-box .right-bottom-box a { cursor:pointer; }
+.c-product-zoom-box .big-slider-container { height: 530px;}

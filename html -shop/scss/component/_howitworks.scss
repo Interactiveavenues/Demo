@@ -1,0 +1,75 @@
+
+.c-how-it-works { background-color:#838383; padding:30px 20px; }
+.hiw-slider{
+    &.slick-dotted.slick-slider { margin-bottom:0;}
+.spbox{ padding: 50px 10px;
+    .quotebox{ position: relative; text-align: center;
+        .h5 { @extend.h5; color:$white; font-size:28px; padding:20px 55px; line-height:36px;
+               &:before {position:absolute;left:0; top:0; content: url(../images/quote1.svg); width:50px; height:50px;}
+      &:after {position:absolute; right:0; bottom:0; content: url(../images/quote2.svg); width:50px; height:50px;}
+            > img { width:50%;}
+        
+        }
+      
+    }
+    
+    p{ font-family:$open-sans-600; font-size:20px; color:$white; text-align: center; margin: 10px 0 5px 0;
+        &:last-child{ font-size:18px; font-family:$open-sans; margin:0 0 30px 0; }
+    }
+
+    
+   
+
+}
+.slick-dots{ bottom: 20px;
+li{ margin: 0 4px; display: inline-block; vertical-align: bottom; 
+    
+button{  opacity: 0.6; padding: 0; margin: 0;  position: absolute; @extend .animate-3; border-radius:100px; border:solid 1px transparent;
+    
+&:after{content:''; background-color:$white; position: absolute; bottom: 0; left: 0; width: 6px;  height:6px; @extend .animate-3; border-radius:100px;}
+    
+&:before{display: none;}
+}
+
+&:hover{ 
+    button
+    { opacity: 1; 
+        
+&:after{ width:6px; border-radius:100px; height:6px;}
+        
+}
+    
+}    
+    
+&.slick-active{ 
+    button
+    { opacity: 1; 
+        
+&:after{ width:25px; border-radius:100px; height:6px;}
+        
+}
+    
+}
+}
+}
+    .slick-slide { height:auto;}
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+  .hiw-slider .spbox .quotebox .typography h5, .typography .hiw-slider .spbox .quotebox h5, .hiw-slider .spbox .quotebox .h5 {  font-size: 24px;  padding: 50px 20px; line-height: 30px;} 
+  .hiw-slider .spbox { padding: 30px 10px;}
+}
+
+
+
+@media only screen and (max-width:767px){
+    .c-how-it-works { padding:15px 10px;} 
+    .hiw-slider .spbox { padding:10px;}
+    .hiw-slider .spbox .quotebox .typography h5, .typography .hiw-slider .spbox .quotebox h5, .hiw-slider .spbox .quotebox .h5 {  font-size: 18px;  padding: 50px 20px; line-height: 24px;}
+    .hiw-slider .spbox p { font-size:16px;}
+    .hiw-slider .spbox p:last-child { font-size:14px;}
+    .hiw-slider .spbox .quotebox .typography h5:before, .typography .hiw-slider .spbox .quotebox h5:before, .hiw-slider .spbox .quotebox .h5:before { width:35px; height:35px;}
+    .hiw-slider .spbox .quotebox .typography h5:after, .typography .hiw-slider .spbox .quotebox h5:after, .hiw-slider .spbox .quotebox .h5:after { width:35px; height:35px;}
+    
+}

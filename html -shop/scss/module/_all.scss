@@ -1,0 +1,745 @@
+body {font-family: "Open Sans" !important;}
+.schedular-form {
+    ul{
+        li{
+            div {
+                span {  font-size: 13px;}
+            }
+        }
+    }
+}
+.overview-copy {
+    >ul{
+        >li{font-family: "Open Sans"; background: none; padding-left: 0.3vw; line-height: 18px;}
+    }
+}
+
+
+.contentarticle{
+    >ul {
+        >li { background: none; padding: 0 0 8px 5px;}
+    }
+} 
+
+.parsys_column {
+    .section {
+        .section-header {
+            &:before { width: 0px; background-color: transparent; left: 0;}
+        }
+    }
+}
+.show-results-copy{
+    >p {font-family: $open-sans;}
+    >span {font-family: $open-sans;}
+    ul {
+        li {font-family: $open-sans;}
+    }
+}
+
+/*27-8-18  Css changed*/
+.dwnld-btn {font-family: "Open Sans";} 
+.dealer_locator {
+    >div {
+        >span {font-family: "Open Sans";}
+    }
+}
+.store-loc-title {
+    >p {font-family: "Open Sans";}
+}
+.white-box {
+    ul.desktop-form {
+         >li { 
+            input {font-family: "Open Sans";}
+         }
+    }
+}
+.show-results-copy{
+    >p {font-family: "Open Sans";}
+    >span {font-family: "Open Sans";}
+    >ul {
+        >li {font-family: "Open Sans";}
+    }
+}
+.show-results-contact {
+    >a {font-family: "Open Sans";}
+}
+
+.overview-copy{
+    >p {font-family: "Open Sans";}
+}
+
+.function-boxes-copy{
+    >p {font-family: "Open Sans";}
+}
+.date-box {
+    span {font-family: "Open Sans";}
+}
+.archives-list {font-family: "Open Sans";}
+.campus-contianer {
+    >.alltext {
+        >p {font-family: "Open Sans";}
+    }
+}
+.campus-contianer {
+    .readMoreLink {font-family: "Open Sans";}
+}
+.item-hdng {font-family: "Open Sans";
+    >a {font-family: "Open Sans";}
+}
+.tab-style1.custom {
+    .nav {
+        li {
+            a {font-family: "Open Sans";}
+        }
+    }
+}
+select.mobile-device {font-family: "Open Sans";}
+.blue-txt {font-family: "Open Sans";}
+strong { font-family: "Abhaya Libre SemiBold"; font-weight: bold;}
+.spotlight-subtext {font-family: "Open Sans";}
+.tab-style1 {
+    .nav {
+        li {
+            a {font-family: "Open Sans";}
+        }
+    }
+}
+.radio {
+    label {font-family: "Open Sans";}
+}
+.checkbox {
+    label {font-family: "Open Sans";}
+}
+.accor-new {
+    .accrdn-title {font-size: 20px;}
+}
+
+    /*28-8-18 Css changed*/
+.test-copy-container {
+    h3 { color: #ffffff;}
+    p { color: #ffffff;}
+}
+.inner-menu {
+    li {
+        a {font-family: "Open Sans";}
+    }
+}  
+.inner-menu {
+    .child {
+        ul {
+            li {
+               a {font-family: "Open Sans";}
+            }
+        }
+    }
+}
+
+.filter-header {font-family: "Abhaya Libre SemiBold";}
+.search-item {
+    input {font-family: "Open Sans";}
+}
+.eload {
+    h2 {
+        span {font-family: "Open Sans";}
+    }
+}
+.item-category-shop-hdng {font-family: "Open Sans";}
+
+.sldr-title { font-family: "Abhaya Libre SemiBold"; color: #ffffff;}
+.sldr-title2 { font-family: "Abhaya Libre SemiBold"; color: #ffffff;}
+h3.accrdn-title-inspiration {font-size: 20px;}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .date-box {width: 70px;
+        .day {font-size: 30px;} 
+        .mnth-year {font-size: 15px;}
+    }
+    .item-captn {bottom: 0px; }
+
+     /*30-8-18 Css changed*/
+    .fastestsellingproducts{
+        .typography {
+            .eload { min-height: 400px;}
+        }
+    }
+}
+
+    /*29-8-18 Css changed*/
+.color-item.actv {
+    .color-name {font-family: "Open Sans";}
+} 
+.c-light {
+    .lightbox-target {
+        .text-box {
+            h3 { font-family: "Open Sans"; font-size: 18px;}
+        }
+    }
+}
+.header-component {
+    .suggestion-box {
+        .popular-search-list {
+            .item-details { font-family: "Open Sans";}
+        }
+    }
+}
+.header-component {
+    .suggestion-box {
+        .suggestion-search-list {
+            .item-details { font-family: "Open Sans";}
+        }
+    }
+}
+.header-component {
+    .global-search {
+        .search-input { font-family: "Open Sans";}
+    }
+}
+.tab-content{
+    p { font-family: "Open Sans";}
+} 
+.item-hdng { font-family: "Open Sans";}
+.clear-all-tags { font-family: "Open Sans";}
+.policies-container{
+    >span { font-family: "Open Sans";}
+} 
+.function-boxes-copy{
+    >p { font-family: "Open Sans";}
+}
+.butn-style { font-family: "Open Sans";}
+.calculator-tabbing {
+    .nav{ 
+        >li {
+            >a {font-family: "Open Sans";}
+        }
+    }
+}
+
+ /*29-8-18 Css changed Round 2*/
+.item-category-shop-hdng{
+    >span { font-family: "Open Sans";}
+}
+
+.sleek-tabHeading {font-family:'Open Sans Semibold';}
+.sleek-tabdisp { font-family: "Open Sans";}
+.cart-calender-left-container{
+    >p { font-family: "Open Sans";}
+}
+.select-texture{
+    >span {font-family: "Open Sans";}
+}
+.custom-rating {
+    span {font-family: "Open Sans";}
+}
+.cmmnt-prsn {
+    h4 { font-size: 18px;}
+}
+.cmmnt-box {
+    p {font-family: "Open Sans";}
+    div {font-family: "Open Sans";}
+}
+
+.sleek-designhome{
+    >ul {
+        >li {margin-right: 1% !important;}
+    }
+}
+.interior-listing-filter-container{
+    >ul {
+        >li {
+            >p {font-family: "Open Sans";}
+        }
+    }
+}
+.interior-listing-filter-container ul li [type="checkbox"] {
+  &:not(:checked) + label, &:checked + label {
+    font-family: "Open Sans";
+  }
+}
+.label-text {font-family: "Open Sans";}
+.item-look-captn-hdng {font-family: "Open Sans";}
+.tooltip-row {
+    .available_product_copy {font-family: "Open Sans";}
+}
+.cal-head-text {font-family: "Open Sans";}
+.calculator-secn {
+    h4 {font-family: "Open Sans";}
+}
+
+.speciality-container {
+    .checkbox {
+        label {font-family: "Open Sans";}
+    }
+}
+ul.category-listing-items{
+    >li {font-family: "Open Sans"; font-size: 16px;}
+}
+h4 {
+    .decal-title { font-family: "Open Sans";}
+}
+.accor-new{
+    .accrdn-title {font-family: "Open Sans";}
+}
+
+.h3.accrdn-title, .typography h3.accrdn-title{
+    font-family: "Open Sans Semibold";
+    font-weight: normal;
+    font-size: 18px;
+}
+.decal-sect .decal-title, .typography h4 .decal-sect .decal-title{font-family: "Open Sans"; text-align: left;}
+.locate_container{margin-top: 0px;}
+.appointment-service .book-appointment h1, .service-heading h1, .prop-head h3, .gallery_head h2{font-family: "Abhaya Libre SemiBold";}
+.service-heading p, .service-text p, .appointment-form form input, .prop-text p{font-family: "Open Sans";}
+.gallery .gallery_head{
+        float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.h3.h3-border span{border-bottom: 0px;}
+.textdescriptionwithCTA .h3{margin-bottom: 10px;}
+
+.sldr-title, .sldr-title2{font-family: "Abhaya Libre SemiBold";}
+.h2>span.mb-30{margin-bottom: 0px;}
+.previousnextarticle h4, .article-link-copy{font-family: "Open Sans";}
+.previousnextarticle h4 a.purple-color{    background: #FFF; font-family: "Open Sans"; font-size: 18px;}
+
+ /*30-8-18 Css changed*/
+.accrdn-title{
+    &:before {background-color: #7350ac;}
+}
+.overview-copy.typography
+{
+    p {font-family: "Abhaya Libre SemiBold"; font-size: 30px; color: #ffffff;}
+} 
+
+.overview-copy.typography{
+    >ul {
+        > li:before { background-color:#ffffff;}
+    }
+} 
+
+.calculator-tabbing {
+    .nav {
+        >li {
+            >a { font-size: 16px; }
+        }
+    }    
+}
+.interior-product-details-container {
+    ul{
+        li {padding-left: 0; background: none;}
+    } 
+}
+.interior-content{
+    >h3 {font-family: "Abhaya Libre SemiBold";}
+}
+
+
+.img_pop_up_left_content>p {font-family: "Open Sans";}
+.pop_third_part_right_content>p {font-family: "Open Sans";}
+.pop_third_part_left_content>span {font-family: "Open Sans";}
+.pop_third_part_left_content>ul>li>p {font-family: "Open Sans";}
+
+.product-owl-demo .owl-carousel .owl-wrapper, .product-owl-demo.owl-carousel .owl-item .item .radio label {font-family: "Open Sans"!important;}
+.calculator-secn .radio label { font-size:14px !important;}
+#offerings .colWrapPLP > img { width: 100%;}
+.tab-style1 .nav li a { font-size:16px;}
+.prdcts-color { margin-bottom:40px;}
+.sleek-txtnum { font-family: "Open Sans"; font-size:100px !important;}
+.interior-content > h3 > span { font-family: "Abhaya Libre ExtraBold";}
+.owlCarousel-auto-item-6 .item span, .owlCarousel-auto-item-4 .item span, #owl-demo3 .item span, .owlCarousel-auto-item-5 .item span { width:60%; float:none; margin:10px auto; text-align: center;  }
+.campaignwrapper .accrdn-title { padding:14px 20px;}
+.campaignwrapper .accrdn-cntnt { padding: 0px 20px 10px 20px;}
+.form-wrapper-new h2 { font-family: "Abhaya Libre SemiBold";}
+
+.initialFaqs .accrdn-secn .h3 { font-size: 22px; margin-bottom: 10px;}
+.cmmnt-lisitng h3 { font-family: "Abhaya Libre SemiBold" !important; }
+.cmmnt-box p, .cmmnt-box div { font-family: "Open Sans" !important;}
+.gettingstartedwithsteps .step-cont .step_dec>p { color: #fff !important;  line-height: 20px !important;}
+.textdescriptionwithCTA h2 {padding-left:0;}
+.new-login-copy > p > a { font-family: "Open Sans" !important;}
+
+
+
+
+.tab-style1 .nav li a { padding: 20px 10px; margin-right: 0;}
+.accrdn-title { padding: 15px 30px;}
+#colourselectiontools .product-items h4 div { font-family: "Abhaya Libre SemiBold"; font-size: 24px; color: #444; margin: 0;}
+.global-para {font-family: "Open Sans"; }
+.twocolumnimagevideo.section { clear:none;}
+.typography .service_testimonial_content h5 { font-family: "Open Sans Semibold"; font-size: 14px; color: #fff;}
+#lbTitleBottom a { font-family: "Open Sans";}
+#lbTitleBottom p { font-family: "Open Sans";}
+.function-boxes-copy>p { font-family: "Open Sans"; color: #fff; font-size: 18px;}
+
+
+.policies-container>span { font-family: "Open Sans";  margin-top: 15px;}
+.policies-container>p>span { font-family: "Open sans";  font-weight: 600; font-size: 18px;}
+.policies-container>p>span>img { vertical-align: middle;}
+.color-code-box a span { top: 50%; transform: translateY(-50%);};
+.error { font-size:13px;}
+
+
+.login-registration .form-wrapper-new .h2.section-header:before { background-color: transparent;}
+.product-items h4 { font-size:24px !important;}
+.new-signup-right-container>ul>li>span { font-family: "Open Sans" !important; }
+.tab-style1 .nav li { margin-right:0;}
+.schedular-form p { font-family: "Open Sans Semibold"; }
+.lavender-book-btn>a { font-family: "Open Sans Semibold"; }
+.form-content p { font-family: "Open Sans Semibold";}
+.colctrl-3c-33_33_33-c0 .textdescriptionwithCTA .contentarticle h2  { font-size: 24px; }
+.textdescriptionwithCTA .contentarticle.typography h6 { font-size: 14px; }
+#custom-dvProducts h4 { font-family: "Abhaya Libre SemiBold"; font-size:24px; color: #444; margin: 0;}
+#dvGoesWellWith h4 { font-family: "Abhaya Libre SemiBold"; font-size: 24px;color: #444; margin: 0; }
+.campus-contianer.campus-list .h3 { font-size: 22px; }
+.accrdn-title:before { width:6px; height:6px;}
+.accrdn-title { padding:15px 15px;}
+.bold { font-family: "Open Sans Semibold"; }
+.accor-new .accrdn-title-inspiration { background:transparent url(../../clientlib-site/images/accor-new-plus.jpg) no-repeat scroll right 15px top 15px}
+.textdescriptionwithCTA h3>span { border-bottom: none;}
+
+
+.header ul li a { font-family: "Open Sans Semibold"; font-size:18px;}
+.main-wrapper h2, .main-wrapper h3 {  }
+.topbanner .form-wrapper li input { font-family: "Open Sans"; }
+ul.nav-container > li { font-family: "Open Sans Semibold"; font-size:18px;}
+.form-content ul li button { font-size: 16px; font-family: "Open Sans";}
+h2 span {  font-family: "Abhaya Libre SemiBold";}
+.btn-style2 {  font-size: 16px; font-family: "Open Sans";}
+h5, h6 { font-family: "Abhaya Libre SemiBold";}
+header .navigation>ul>li>a { font-family: "Open Sans Semibold"; font-size:18px;}
+.visit { font-family: "Open Sans";}
+h3 { font-family: 'Abhaya Libre';}
+h2 {  font-family: "Abhaya Libre SemiBold";}
+.contentarticle p { font-family: "Open Sans";}
+.topbanner .form-wrapper h3 {font-size:24px; }
+.topbanner .form-wrapper.typography.no-bullets ul li { margin: 10px 0 10px 0 !important;}
+button{ font-family: "Open Sans";}
+.main-wrapper h2 { font-family: "Abhaya Libre SemiBold"; font-size: 36px; } 
+.main-wrapper h3  { font-size: 30px; } 
+.main-wrapper footer p{ color:#ffffff;}
+.eload h2 span { font-weight:bold;}
+.aboutuswrapper .container { width:auto;}
+.textdescriptionwithCTA #freesiteconsultation .typography h2 span { font-size:24px; }
+.service_book_appointment { font-family: "Open Sans";}
+.ftr-btm .copyright { color:#ffffff !important}
+header .campaign-nav>.spot-menu-2>li>a {  font-family: "Open Sans Semibold"; }
+
+
+
+.form-quarter-width .form-box input[type="text"] { background-color:#ffffff;}
+.ctrl-form-width .form-box input[type="text"] { border: 1px solid #838383; padding: 10px 5px;}
+.textdescriptionwithCTA .contentarticle table tbody tr th { font-weight:bold;}
+.textdescriptionwithCTA .contentarticle table p b { font-weight: bold !important;}
+.contentarticle p b { font-weight: bold !important;}
+ul.appoint_form_listing>li .text-input { background-color:#ffffff;}
+.ctrl-form-width.custom-ctrl-form-width>.ui-datepicker-trigger>img { width:32px;}
+.ui-datepicker { margin-top: 5px; border: 1px solid #999;}
+.ftr-btm.typography.no-bullets .social-media-container-footer ul li { margin: 20px 10px 20px 10px !important;  display: inline-block; }
+.ftr-btm.typography.no-bullets .social-media-container-footer ul li:first-child { margin-left:0px !important;}
+.textdescriptionwithCTA #aboutultimaprotek .contentarticle h2 {font-size: 32px; margin-bottom: 30px; }
+.social-media-container-footer>ul>li { font-family: "Open Sans";}
+.visit-spot {  font-family: "Open Sans"; }
+.campaignwrapper .initialFaqs .accrdn-title { padding: 12px 20px; }
+.benefits .brdr-secn .list .mt-15.margin-top-zero-new { margin-top:0 !important;}
+.form-box .ctrl-form-width input[type="text"] { border: 1px solid #838383; padding: 10px 5px;}
+.campaignspotlight .form-container { z-index:10;}
+.main-wrapper.footer p { color:#ffffff!important}
+.footer.typography .social-media-container-footer ul li { margin: 0 10px !important;}
+.focusInput { font-family: "Open Sans"; }
+.platinum-steps-copy { font-family: "Open Sans Semibold" !important;}
+.howWorksPLP .columnWrap h4 { font-family: "Open Sans Semibold";}
+.howWorksPLP .columnWrap p { font-size: 16px; line-height: 24px; font-family: 'Open Sans'}
+.ap-platinum-warranty-copy>p { font-family: "Open Sans Semibold" !important;}
+.home-heading h2 { font-family: "Abhaya Libre SemiBold"; font-size:36px;}
+.appointment-service .book-appointment h1 { font-family: "Abhaya Libre SemiBold"; font-size: 20px; }
+
+ul.appoint_form_listing>li .text-input { border: 1px solid #999; }
+#landingform .form-content-display.typography.no-bullets.form-box div.error { left:auto;  font-size: 11px!important;  color: #d6330d !important;}
+a.item.fresco { display:inline-block !important;}
+.apsleekform .home-heading span { background-color: transparent;}
+.appoint_form_listing div.error { bottom: -20px!important;}
+.social-media-container-footer { margin-top: 0 !important;}
+.appoint_form_listing div.error { bottom: 0; color: #d6330d !important; font-size: 11px!important;  margin: 0 !important; width:100%; }
+.catlogue_listing_discount strike{ font-weight:normal;}
+.appoint_form_listing .ctrl-form-width {  margin: 25px 0;}
+
+
+
+
+
+
+ /* ICF bugs : css starts here */
+ /*10th september css starts here */
+
+#srch-modal .modal-custom .modal-content { padding: 40px 40px 40px 65px;}
+#metaliccolours .tab-style1.custom2 .nav li a { padding: 10px 0;  margin-right: 5px;}
+.ap-video .tab-content .nav li a { font-size:16px; height:58px; display: flex; align-items: center;}
+#ap-video.ap-video .tab-content .nav li a {  padding: 15px 25px; margin-right: 4px;}
+#ap-video.ap-video .tab-content .nav li {  margin-right: 0;  padding: 0; }
+.search-item { width:300px;}
+.color-catgry-sldr li { padding:8px 10px;}
+.tab-content.spcl-efftcs#dvTexturesShadeSubCategory {  z-index:9; position:relative;}
+#innerpagethankyou h2 span { font-size:30px;}
+.sleek-thankyou-msg { font-family: "Open Sans"; }
+.result-section .refine-search-filter .refine-filter>li { padding:0; margin:0!important; }
+ /*10th september css ends here */
+
+
+/*11th september css starts here */
+#checkout-popup .modal.in .modal-dialog .modal-content .close { position:absolute; right:0;}
+#checkout-popup .template-textual-simple a.btn-style4.mr-15 { margin-right:0;}
+#checkout-popup .template-textual-simple span.divider-vertical { padding-right:0;}
+.btn-style4 { font-family: "Open Sans"; font-size:16px; }
+.form-wrapper-new h2:after { background-color: transparent;}
+.new-signup-left-container { font-family: "Open Sans"; }
+.new-signup-right-container { font-family: "Open Sans"; }
+.new-signup-left-container h2.section-header:before {  background-color: transparent; }
+.new-signup-right-container h2.section-header:before {  background-color: transparent; }
+#result_quickcal h2 { font-size:30px; }
+#result_quickcal p i { font-size: 14px; line-height: 20px;}
+.sps a { display:flex; align-items:center;}
+.sps span { top:auto;}
+.ap-auth-manager-protected-section .profile-details .ap_user-profile-form a.global-button-white {  margin: 50px 0 !important;}
+.budgetcalculator .calculator-secn .tab-content h3 { font-size:22px;}
+.roomDetails .pbc-accord .accrdn-secn .sub-accor .accrdn-secn { border-top:none;}
+ ul.doorarea { padding-top:20px;}
+.accrdn-title { padding: 15px 30px; }
+.campus-contianer>.alltext.minHt { height:85px;}
+.aboutuswrapper .container { max-width:1170px; width:100%; margin:0px auto;}
+.thank-content .typography h2 section-header:before { background-color: transparent;}
+.overview-container .overview-copy.typography ul li { margin: 5px 0 5px 25px !important;}
+.recommended-product-label-container .p.label-text { color: #fff; font-weight: bold;  font-size: 16px;} 
+#benifit-section .sb-sect .typography h3 { margin-bottom: 20px;}
+#benifit-section .sb-sect .typography.no-bullets ul li { margin: 5px 0 5px 0 !important; }
+.modal-body .get-in-touch-copy .popup-title { margin-left: 0 !important; margin-bottom: 20px;}
+.modal-body .get-in-touch-copy { text-align: center;}
+#getIntouchContractor .popup-title p { font-family: "Open Sans"; }
+
+ /*11th september css ends here */
+
+
+/*12th september css starts here */
+
+.result-section .result-container .block-heading { font-size:24px;}
+.result-section { margin-top: 25px; }
+.commonpainting .search-item { min-width: 330px; width:330px;}
+//#allAboutColorsComponentMainDiv .ap-video .search-tabpanel .search-tabpanel .srch-input { min-width: 330px; width:330px; }
+.colourcatalog #srch-modal .modal-dialog .modal-content .modal-body .section-header:before { background-color: transparent; }
+.modal.in .modal-dialog .modal-content .close { position:absolute; right:0; }
+.desktop-form .typography.no-bullets ul li { margin: 20px 50px 20px 0 !important;}
+.siteVisit .white-box ul.desktop-form>li { width:40%;}
+#benifit-section .sb-sect.typography.no-bullets ul li { margin: 5px 0 5px 0 !important; }
+#benifit-section .sb-sect.typography.no-bullets h3.benifit-section-heading-grey { margin-bottom: 20px;}
+.show-results-contractor-copy>p { font-weight:bold;}
+.show-results-contractor-copy>ul>li:first-child { float: left; margin: 0 10px 10px 0!important;}
+.show-results-contractor-copy>ul>li{ margin: 0 10px 10px 0!important; }
+.c-sticky-box { z-index:100;}
+
+/*12th september css ends here */
+
+
+/*14th september css starts here */
+
+.ui-corner-all > strong { font-family: "open sans"; font-weight:normal; }
+h3.benifit-section-heading-grey { font-size: 22px !important;}
+.white-box ul.desktop-form>li input {width: 95%; }
+.thank-content.typography .h2 section-header:before { background-color: transparent;}
+#allAboutColorsComponentMainDiv .ap-video .search-tabpanel .srch-input { min-width: 330px; width:330px; }
+
+ /*14th september css ends here */
+
+
+ /*17th september css starts here */
+#metaliccolours .tab-style1.custom2 .nav li a {padding: 10px 40px;}
+.whyUsPLP .columnWrapPLP .circleWrap {background-color: transparent !important;}
+
+
+
+@media only screen and (max-width: 1170px){
+.whyUsPLP .columnWrapPLP .circleWrap img {
+    max-width: 40px;
+}
+    .white-box .btn-style5.global-button.ap-submit-button { min-width: auto !important;}
+}
+ /*17th september css ends here */
+
+
+
+ /* ICF bugs : css ends here */
+@media only screen and (min-width:1170px){
+body.bodycampaign .topbanner{margin-top: 62px;}
+}
+@media only screen and (max-width:992px){ 
+.bookAppointmentPLP .container, .whyUsPLP .container, .howWorksPLP .container, .getInspiredPLP .container, .warrantyWrapPLP .container { max-width:970px !important;} 
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+.overview-container .overview-copy.typography ul li { margin: 0 0 0 25px !important;}
+}
+
+
+.thank-content h2.section-header.thank-content-header:before{display: none;}
+
+@media only screen and (max-width:767px){
+    
+    .item-category-shop-hdng { font-size:20px;}
+    .item-category-shop-hdng>span { font-size:14px;}
+    .sleek-fourSec .sleek-col-4 { min-height:125px;}
+    .aboutuswrapper .container  { max-width: 1170px; width:100%; }
+    .sleek-tabcontent { padding-left:0; width:100%; }
+    .sleek-txtnum { float:none;}
+    .product-items h4 { font-size:18px !important;}
+    .filter-left-container-mob-plus { font-family: "Open Sans Semibold";}
+    
+    .apps-link .menu-btn-mob, .menu-btn-mob-close {  position: relative;  top: -26px; z-index: 9;}
+    .apps-link ul.logo-container { display: inline-block; position: relative;  z-index: 10; }
+    .initialFaqs .accrdn-secn .h3 { font-size:14px;}
+    .initialFaqs .accrdn-secn .accrdn-title:before { margin-top: -5px; }
+    .offeringPLP .overlapContent .innerContent p { color:#ffffff !important;}
+    .whyUsPLP { font-size: 14px !important;  line-height: 21px !important;}
+    
+    .bookAppointmentPLP h2 { padding-left:30px;}
+   .whyUsPLP h2 { margin-bottom:0; padding-left:30px;}
+    #dvGoesWellWith h4 { font-size:18px !important;}
+    #custom-dvProducts h4 { font-size:18px !important; }
+  .item-look-captn-hdng { font-size:18px !important;}
+  .bookAppointmentPLP .container, .whyUsPLP .container, .howWorksPLP .container, .getInspiredPLP .container, .warrantyWrapPLP .container { max-width:750px !important; }
+    
+    
+    #whyus.whyUsPLP .columnWrapPLP .contentWrap h2 { padding-left:0;}
+    #whyus.whyUsPLP .columnWrapPLP .contentWrap { width: calc(100% - 70px);}
+    #innerpagethankyou h2 span { font-size:20px;}
+    .search-item { margin:15px auto;}
+    #dvMetalicShadeCategory #metaliccolours .tab-style1.custom2 .nav li a { padding:10px;}
+    .filters-fixed-mob { top:75px; }
+    
+     /*14th september css starts here */    
+    .interior-listing-filter-container.active {top: 40px;}
+    .offeringPLP h2.diNoneMo { padding-left:30px !important; margin-left:0;}
+    /*14th september css ends here */
+    
+    
+    /*17th september css starts here */
+    .speciality-container .checkbox a .custom-tooltip {padding: 20px 10px 10px 10px; font-size: 12px; line-height: 16px;}
+    .speciality-container .checkbox label { font-size: 12px; padding-right: 7px;}
+    .speciality-container .checkbox>a>img { width: 16px;}
+    .tool-tip-close-mob {top: 5px; right: 5px;}
+    .boardofdirectors.section .drctcrs-secn .col-md-3 {width: calc(50% - 5px) !important;}
+    /*17th september css ends here */
+}
+
+.new-signup-right-container{
+    ul{
+        li{margin: 10px 0 10px 25px !important;}
+    }
+}
+
+.contractorlocator{
+    .inner-secn.pt-40{padding-top: 0px;}
+} 
+@media only screen and (max-width:580px){
+.speciality-container .checkbox a:hover .custom-tooltip{
+        transform: translateX(-55%);
+    left: 0px;
+    top: 25px;
+}
+}
+
+body.bodycampaign{
+    .login-input input, .form-box input[type="text"]{
+        background-color: #fff;
+        padding: 10px 5px;
+    
+    
+    .main-wrapper h2.sub-heading span:before, .main-wrapper h2.sub-heading span:after{content: "";}
+        
+        
+}
+    ul.nav-container>li{
+        font-size: 16px;
+    }
+
+}
+
+.modal-backdrop.in{visibility: hidden;} 
+.modal-open .modal{background-color: rgba(0, 0,0, 0.8);}
+
+.calculator-tabbing .nav, .ap-smart-tab .nav{display: flex;}
+.calculator-tabbing .nav-tabs>li, .ap-smart-tab .nav-tabs>li{text-align: center;}
+.calculator-tabbing .nav-tabs>li.active, .ap-smart-tab .nav-tabs>li.active{background-color: #fcaf17;}
+
+.calculator-tabbing .nav-tabs>li.active:after, .ap-smart-tab .nav-tabs>li.active:after {
+    border-bottom-color: #fcaf17;
+    border-top: 10px solid #fcaf17;
+    border-right: 10px solid transparent; 
+    border-bottom: 0 solid transparent;
+    border-left: 10px solid transparent;
+    color: #fff;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 43%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    color: #fff;
+}
+
+.schedular-form ul li>div{padding: 14px 0 0;}
+
+.h2 > span {
+    border-bottom: none!important;
+    padding-bottom: 0px!important;
+    font-family: "Abhaya Libre SemiBold";
+}
+
+.new-search-view{
+    padding-right: 0px!important;
+}
+
+.or-form {
+    margin-top: 40px!important;
+}
+
+#inspirationFilters .checkbox label{
+    text-transform: capitalize!important;
+}
+
+#inspirationFilters .accrdn-title{
+    text-transform: capitalize!important;
+}
+
+#inspirationFilters1 .checkbox label{
+    text-transform: capitalize!important;
+}
+
+#inspirationFilters1 .accrdn-title{
+    text-transform: capitalize!important;
+}
+
+#filters1 .accrdn-title-inspiration{
+    text-transform: capitalize!important;
+}
+
+#filters1 .checkbox label{
+    text-transform: capitalize!important;
+}
+
+#filters .accrdn-title-inspiration{
+    text-transform: capitalize!important;
+}
+
+#filters .checkbox label{
+    text-transform: capitalize!important;
+}
+
+#filters1 .accrdn-title{
+    text-transform: capitalize!important;
+}
+
+#filters .accrdn-title{
+    text-transform: capitalize!important;
+}

@@ -1,0 +1,153 @@
+
+.c-four-easy-steps {
+  .four-easy-steps-content { display:table;
+    
+      .four-easy-steps-box { position: relative; padding:  80px;  
+          @include breakpoint(767) {
+               padding:100px 10px 100px 10px;
+          }
+          @include breakpoint(440) {
+              padding: 60px 10px;
+          }
+      &:after { content: ''; width: 100%; height: 90%; border: 1px solid $light-grey;  border-radius:5px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1;}
+      ul{ margin:0; padding:0;
+          li{ display:flex; float:left;  width:100%; list-style-type: none; text-align: left; margin: 0; padding: 0; position: relative;  align-items:center;
+               span { font-size: 90px; line-height: 100px; color: #eaeaea; font-family:$open-sans-700; width:80px; }
+              div { vertical-align: middle; width:75%;
+                  p { margin-bottom:0 !important;}
+              }
+                }
+          @include breakpoint(440) {margin: 30px 0;}
+      }
+      .h2{ position: absolute; background-color:$white; margin: 20px 20px 50px 0 !important; left: 0; top: 0; width:80%;}
+          h5{margin-bottom: 10px;}
+
+}
+    .form-box-content { display:table-cell; vertical-align: middle; width:30%;
+        .section-header {
+            &:before { left:-95px; }
+        }
+        .form-box{ background-color:#f6f6f6; padding:30px 60px;  
+            @include breakpoint(440) {
+              padding: 30px 30px 0px 60px;
+                top:0px;
+                width: 100%;
+          }
+            position:relative; margin-left:-50px; border-radius:5px;
+            ul { margin:0; padding:0;
+                li{ position:relative; margin-bottom: 20px;
+                   
+                }
+            }
+            .global-button {  position: relative; bottom: -50px;
+                @include breakpoint(440) {
+                bottom: 0px;
+          }
+            }
+            &.thankyou{display: none;
+                h2{margin-bottom: 50px;
+                    @include breakpoint(767) {margin-bottom: 35px;}
+                    @include breakpoint(767) {margin-bottom: 20px;}
+                }
+            }
+        }
+          }
+    }   
+
+}
+
+
+
+.c-decor-four-easy-steps {
+ 
+    
+      .four-easy-steps-box { position: relative; padding:70px 50px 0px 50px;  
+          &:after { content: ''; width: 100%; height: 90%; border: 1px solid $light-grey;  border-radius:5px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1;}
+      ul{ margin:0; padding:0;
+          li{ display:inline-block; float:left;  list-style-type: none; text-align: left; margin: 0;padding: 0 30px 0 0; position: relative; width:25%;
+               span { font-size: 90px; line-height: 100px; color: #eaeaea; font-family:$open-sans-600; width:80px; }
+              div { vertical-align: middle; width:75%;
+                  p { margin-bottom:0 !important;}
+              }
+             
+                }
+          
+      }
+      .h2{ position: absolute; background-color:$white; margin:0 50px 50px -5px !important; left: 0; top: 0; width:auto; padding-right:20px;}
+          h5{margin-bottom: 10px;}
+
+}
+    
+    
+       .decor-four-easy-steps-box { position: relative; 
+           ul{ margin:0; padding:0;
+          li{ display:flex; float:left;  list-style-type: none; text-align: left; margin: 0;padding: 0 30px 0 0; position: relative; width:25%; align-items:flex-end;
+               span { font-size: 100px; line-height: 100px; color: #eaeaea; font-family:$open-sans; width:70px; font-weight:bold; }
+              div { vertical-align: middle; width:75%;
+                  p { margin-bottom:5px; font-family:$open-sans-600;}
+              }
+             
+                }
+          
+      }
+      .h2{ position: absolute; background-color:$white; margin: 0 20px 50px 0 !important; left: 0; top: 0; width:auto;}
+          h5{margin-bottom: 10px;}
+
+}  
+    
+    
+    .form-box-content { 
+        .section-header {
+            &:before { left:-95px; }
+        }
+        .form-box{  
+         
+            position:relative;
+            ul { margin:0; padding:0; position:relative; z-index: 2;
+                li{ position:relative; margin-bottom: 20px; font-size:16px;
+                   
+                }
+            }
+            .global-button {  position: relative; bottom: -15px; left:50%; transform:translateX(-50%);
+                
+            }
+            &.thankyou{display: none;
+                h2{margin-bottom: 20px; text-align: center;
+                    @include breakpoint(767) {margin-bottom: 15px;}
+                    @include breakpoint(767) {margin-bottom: 10px;}
+                }
+                p{ text-align: center; }
+            }
+            input[type="text"]:focus + .focusLine { width:90%;}
+        }
+          }
+     
+
+}
+
+.c-four-easy-steps .four-easy-steps-content .form-box-content .form-box ul li input[type="text"] { font-size:16px;}
+@media screen and (max-width: 767px) and (min-width: 320px){
+.c-four-easy-steps .four-easy-steps-content .form-box-content .form-box.form-container{top: 0px;}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .c-decor-four-easy-steps .four-easy-steps-box ul li { width:50%;}
+    .c-decor-four-easy-steps .decor-four-easy-steps-box ul li { width:50%;}
+    .c-decor-four-easy-steps .decor-four-easy-steps-box ul li span { font-size: 80px; line-height: 80px; width: 60px;}
+   
+    
+}
+
+@media only screen and (max-width:767px){
+    .c-decor-four-easy-steps .four-easy-steps-box ul li { width:100%; padding:0;}
+    .c-decor-four-easy-steps .four-easy-steps-box { padding:40px 10px 0px 10px; }
+    .c-decor-four-easy-steps .form-box-content .form-box .global-button { bottom:-10px;}
+    .c-decor-four-easy-steps .form-box-content .form-box.thankyou .global-button { bottom:-15px}
+    .c-decor-four-easy-steps .decor-four-easy-steps-box ul li { width:100%;}
+    .c-decor-four-easy-steps .decor-four-easy-steps-box ul li span { font-size: 70px; line-height: 70px; width: 50px;}
+    .c-decor-four-easy-steps .decor-four-easy-steps-box ul li{ padding: 0 30px 20px 0;}
+    .c-decor-four-easy-steps .form-box-content .form-box input[type="text"]:focus + .focusLine { width:100%;}
+    .c-four-easy-steps .four-easy-steps-content .four-easy-steps-box ul li { margin-bottom:15px;}
+    .c-four-easy-steps .four-easy-steps-content .four-easy-steps-box ul li span { margin-left:10px;}
+    
+}

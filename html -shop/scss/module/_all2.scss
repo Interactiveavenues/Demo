@@ -1,0 +1,185 @@
+/* store locatore */
+
+.aboutuswrapper .container{
+        width: 100%; max-width: 1170px; 
+    }
+
+.storelocator {
+    .container{max-width: 1170px; width: 100%
+        
+    }
+    .h2{
+        @extend.section-header;
+    }
+}
+
+.wthi-container {
+    .container{max-width: 1170px; width: 100%
+         
+    }
+}
+
+.show-results-stores-list>ul>li{
+    padding: 10px;
+}
+.dealer_locator>div>span{font-size: 16px;}
+
+.show-results-contact>a{font-size: 14px; font-weight: 400;}
+
+// store locator
+.contractorlocator{
+    .container{width: 1170px;
+        
+        
+    }
+    h2{
+        @extend.section-header;
+        @extend.h2;
+    }
+}
+
+.show-results-list-contractor>ul>li{margin: 0 0 0 0;}
+.show-results-contractor-contact-copy>a{font-size: 14px; font-weight: 400;}
+.speciality-container .checkbox label{font-size: 14px;}
+
+#paintselectorid{font-family: "Open Sans";}
+
+.calculator-secn h4{font-family: "Abhaya Libre SemiBold";}
+
+.aboutuswrapper {
+   .container{width: 1170px;
+    } 
+}
+.paint-selector-gallery-sub-header {font-family: "Open Sans";}
+
+.whyUsPLP .columnWrapPLP .contentWrap h2{
+    @extend.h5;
+}
+
+.howWorksPLP h2, h2.custom-getInspiredPLP{
+    @extend.section-header;
+    padding-left: 0px;
+    @extend.h2;
+    &:after{display: none;}
+    
+}
+
+.stickyFilter{@extend.animate-3;}
+
+.new-signup-left-container{
+    .home-heading{
+        max-width: 440px;
+    width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    .home-heading{
+       max-width: 370px;
+    }
+}
+
+h2.custom-getInspiredPLP{margin-top: 40px; padding-left: 0px;
+@include breakpoint(568) { 
+    margin-top: 20px;
+    }
+}
+
+.whyUsPLP .columnWrapPLP .contentWrap p{@extend.p;}
+.homepage-products-section-content .global-para{@extend.h6; margin-bottom: 0px; font-family: "Open Sans";}
+.offeringPLP .colWrapPLP:hover .overlapContent p{color: #FFF; @extend.p; font-family: "Open Sans";}
+.offeringPLP .overlapContent .innerContent h2{@extend.h5; color: #FFF;}
+.bookAppointmentPLP .btn-style3{@extend.global-button; }
+.offeringPLP h2.diNoneMo{padding-left: 0px;}
+
+.calculator-secn .typography, .calculator-secn .typography.no-bullets{
+    li{margin: 0px;}
+}
+
+.product-items {
+    h4{font-size: 16px;}
+}
+
+.item-hdng-decor-blogs {font-family: "Open Sans";font-size: 16px;}
+.product-owl-demo.owl-carousel .owl-item .item .radio label, .help-sec{font-family: "Open Sans";}
+.product-owl-demo.owl-carousel .owl-item .item .radio label, ul.height-radfield>li, .small-ft{font-family: "Open Sans" !important;}
+.pbc_leads_form h3{@extend.h4; margin-bottom: 20px;}
+.item-hdng-decor-blogs{font-family: "Open Sans" !important;}
+#allAboutColorsComponentMainDiv .center-large-box{display: inline-block; width: 100%; }
+
+.add-cmmnt h2 span, .forum-content{font-family: "Open Sans" !important;}
+
+#custom-dvProducts .gallery-thumb-carousel h4{font-size: 16px;}
+.service_testi_content h4{color: #FFF;}
+#paintingService .model-input ul li button, #paintingService .model-input ul li input{font-family: "Open Sans";}
+.cmmnt-lisitng{
+    h3{@extend.h4;}
+}
+
+
+.new-signup-left-container .orWrapA span, .new-login-copy>p>a, .new-signup-listing .labelA, .error-form, .new-signup-container p, .forgotPasswordA{font-family: "Open Sans";}
+.accrdn-secn{margin-top: 20px;}
+.contentarticle p:empty{display: none;}
+
+@media screen and (max-width: 768px) {
+    .aboutuswrapper .container{
+        width: 95%;
+    }
+    
+    .textdescriptionwithCTA h2{padding-left: 30px;}
+    .h2, .contractorlocator h2, .howWorksPLP h2, h2.custom-getInspiredPLP{padding-left: 30px;}
+    .custom-col-xs-offset-1{width: 100%; margin-left: 0px !important;}
+    #benifit-section .bg-clr3 .sb-sect .sb_sb_sec p{line-height: 18px;}
+    .fr-three-box .item .tile .item-captn, .fr-four-box .item .tile .item-captn{padding: 12px 15px;}
+    .item-hdng{margin-top: 0px;}
+    
+}
+
+@media screen and (max-width: 768px) {
+    .aboutuswrapper .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .sleek-fourSec{ text-align: center;
+        > .sleek-col-4{display: inline-block; float: none; width: calc(50% - 5px);}
+    }
+}
+
+
+
+// 25th september 2018 starts here
+
+.tab-style1 .nav li { text-transform: capitalize; }
+.color-catalog .tab-style1 .nav li { width:19%;}
+.calculator-tabbing .nav>li>a { width:180px; text-transform: capitalize;}
+.calculator-secn .radio label {text-transform: capitalize;}
+.txtFields label { text-transform: capitalize;}
+.v-header .navigation li a {text-transform: capitalize; }
+.interior-listing-filter-container>ul>li>p { text-transform: capitalize; }
+.interior-listing-content-container>ul>li>ul>li>p { text-transform: capitalize; }
+.interior-content a, .interior-product-details-container a { text-transform: capitalize; }
+.global-button-white { text-transform: capitalize;  }
+.global-button, .bookAppointmentPLP .btn-style3 { text-transform: capitalize; }
+.paint-budget-calculate>ul>li { text-transform: capitalize;}
+.tooltip-row.ap-smartcare-tab .tab-style1 .nav li { text-transform: capitalize; }
+.footer-box .four-column ul>li>ul>li {text-transform: capitalize;}
+
+.white-box .form-box .error:last-child { bottom:-22px;}
+.c-feature-products .crosssellingproduct .products-list ul li { width:calc(33.33% - 5px);}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.tab-style1 .nav li a { font-size:13px;}
+}
+
+
+@media screen and (max-width: 767px) {
+.c-feature-products .crosssellingproduct .products-list ul li { width:100%;}
+}
+
+
+// 26th september 2018 starts here
+
+.service_testi_content h4 { color:#444444 !important;}
+.typography .service_testimonial_content h5 { color:#444444 !important; }

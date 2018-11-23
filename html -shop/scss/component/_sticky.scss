@@ -1,0 +1,72 @@
+ .c-sticky-box { @include box-shadow(1px, -1px, 1px, 1px, rgba(0, 0, 0, 0.2));padding-right: 25px;  box-sizing: border-box;
+    position:fixed; bottom:0; left: 0px; background-color:$light-grey; z-index:10;
+        
+    ul{  display:flex; align-items:center; justify-content: center; 
+        li{  color:$white;font-family:$open-sans; font-size:12px;  padding:15px 20px; text-align: center;
+            a{ color:$white; line-height: 20px; position:relative; display: block;
+                &:hover { color:$grey;}
+                 
+               
+                span{ position: relative;  margin-right: 10px; display: inline-block; vertical-align: middle;}
+            }
+            &:first-child { border-right:solid 1px #ffffff;; }
+            &:last-child { border-right:solid 0px #ffffff; }
+            @include breakpoint(767) { 
+            padding:15px 5px;
+                
+                &:first-child{width: 40%;}
+                &:last-child{width: 60%;}
+    }
+        }
+    }
+    @include breakpoint(991) { 
+        display:block;
+        
+    }
+    
+    @include breakpoint(767) {
+        width: 100%;
+        max-width: 100%;
+        display:block;
+        font-size:11px;  padding:0px; 
+    }
+    
+    > div{width: 50px; height:52px; @include border-radius(50%); background-color:$light-grey; position: absolute; right: -25px; top: 0px;}
+     
+     .circle {
+    img { position:absolute; right:4px; bottom:4px; cursor:pointer; z-index: 10; transform: rotate(180deg);}
+          
+    @include breakpoint(767) { 
+        display:none;
+    }
+         &.open { 
+             img { transform: rotate(0deg);   }
+            }
+    
+    
+}
+    
+}    
+    
+
+
+ .c-sticky-filter-mob-box { @include box-shadow(1px, -1px, 1px, 1px, rgba(0, 0, 0, 0.2));  box-sizing: border-box; display:none;
+    position:fixed; bottom:0; left: 0px; width:100%; background-color:$light-grey; z-index:10; 
+        
+    ul{  display:flex; align-items:center; justify-content: center; 
+        li{  color:$white;font-family:$open-sans; font-size:15px;  padding:10px; text-align: center; width:50%;
+            a{ color:$white; position:relative; display: block;
+                &:hover { color:$grey;}
+                span{ position: relative;  margin-right: 10px; display: inline-block; vertical-align: middle;}
+            }
+            &:first-child { border-right:solid 1px #ffffff; }
+            &:last-child { border-right:solid 0px #ffffff; }
+            
+        }
+    }
+
+}
+
+@media only screen and ( max-width:767px){
+.c-sticky-filter-mob-box { display:block;}
+}

@@ -1,0 +1,61 @@
+.c-book-an-appointment{
+.container{text-align:center; float: left; position: relative; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);
+.h2{display:inline-block;
+&:before{}
+}
+ul{width: 100%; float: left; padding: 0;
+li{width:calc(25% - 4px); float: none; list-style-type: none; text-align: left; margin: 0; padding:0 20px; display: inline-block; vertical-align: top; position:relative; background-color: #fff;
+span{font-size: 100px; color:#444444; opacity: 0.15; line-height: 70px;  display: block; font-weight: 700;
+}
+.overlapContent{position: relative; top: -10px; background-color:$white; padding: 10px; 
+p{width: 100%; max-width: 100%; margin: 10px 0 0;}
+}
+}
+}
+}
+    
+    
+    
+.globalformbox{text-align: left; 
+    
+    .section-header { background-color:$white;}  
+.h4{padding: 0 30px; display: inline-block; background-color: #fff; margin-top: -10px;}
+ul{width: 100%; 
+    li{width:calc(25% - 60px); margin: 0 30px; float: left; list-style-type: none; padding: 0; position: relative; background-color:transparent;
+input[type="text"]{border-bottom:1px solid #000000; padding: 10px 0;}
+&:last-child{width: 100%; margin: 70px 0 0; position: relative; top: 12px; text-align: center;
+.redBtn{display: block; margin: 0 auto;}
+}
+.focusLine{width:0%; height:2px; position:absolute; bottom: 0; left:10px; background-color:$purple; @extend .animate-3;}
+}
+}
+&:after{content:''; width:calc(100% - 30px); height:90%; border: 1px solid #000000; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; display: block;}
+}
+
+.globalformbox ul li input[type="text"]:focus ~ .focusLine{width:calc(100% - 40px);}
+.globalformbox ul li{background-color: transparent !important;}
+    
+  
+    
+    
+    
+}
+
+
+
+.c-book-box{  margin: 30px 0 !important;  position: relative; z-index:1;
+    
+.form-box {  display: block;  position: relative;  padding-left: 30px;  margin-bottom: 15px;  cursor: pointer;  font-size: 18px; width: 100% important; text-align: center;}
+.form-box input {  position: absolute;  z-index: -1;  opacity: 0;}
+.form-box .form-indicator {  position: absolute;  top: -2px;  left: 0;  height: 18px;  width: 18px;  background: transparent;  }
+.form-box .form-indicator {  border:solid 1px #838383;} 
+.form-box input:checked ~ .form-indicator {  border:solid 1px #fd6c6e;}   
+.form-box input:checked{  background: transparent; }
+.form-box .form-indicator:after {  content: '';  position: absolute;  display: none;}
+.form-box input:checked ~ .form-indicator:after {  display: block;}
+.form-box .form-checkbox .form-indicator:after {  left: 7px;  top: 2px;  width: 4px;  height: 10px;  border:1px solid #2f2b2c;  border-width: 0 1px 1px 0;  transform: rotate(45deg);}
+.form-box label { position:relative; padding-left:30px; margin:30px 0 0 0;} 
+   
+    
+}
+

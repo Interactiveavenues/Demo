@@ -1,0 +1,102 @@
+.c-accordian{@extend .animate-2;
+.accor-section {  border-bottom: 1px solid #cccccc; width: 100%; padding:15px; font-family:$open-sans;
+    &:last-child{ border-bottom:0;}
+    }
+.accor-content {  display: none; padding: 15px 0px;}
+.accor-title {  background: rgba(0, 0, 0, 0) url("../images/accor-plus-icon.png") no-repeat scroll right center;  cursor: pointer;  margin: 0;   position: relative;  color:$dark-grey; font-family:$open-sans-600;
+ &.open {  background-image: url("../images/accor-minus-icon.png");}
+}
+
+
+}
+
+
+.c-sub1-accordian{
+.accor-section {  border-bottom: 1px solid #cccccc; width: 100%; padding:15px 0; font-family:$open-sans;
+    &:last-child{ border-bottom:0;}
+    }
+.accor-content {  display: none; padding: 15px 0px;}
+.accor-title {  background: rgba(0, 0, 0, 0) url("../images/accor-plus-icon.png") no-repeat scroll right center;  cursor: pointer;  margin: 0;   position: relative;  color:#fd6c6e; font-family:$open-sans-600;
+ &.open {  background-image: url("../images/accor-minus-icon.png");}
+}
+}
+
+.c-sub2-accordian{
+.accor-section {  border-bottom: 1px solid #cccccc; width: 100%; padding:15px 0; font-family:$open-sans;
+    &:last-child{ border-bottom:0;}
+    }
+.accor-content {  display: none; padding: 15px 0px;}
+.accor-title {  background: rgba(0, 0, 0, 0) url("../images/accor-plus-icon.png") no-repeat scroll right center;  cursor: pointer;  margin: 0;   position: relative;  color:#fd6c6e; font-family:$open-sans-600;
+ &.open {  background-image: url("../images/accor-minus-icon.png");}
+}
+}
+
+
+.c-filetr-box{
+    
+ ul { margin:0; padding:0;
+        li { list-style:none; display:list-item; margin:15px 0;
+            a{ color:$dark-grey;
+                &:hover { color:$light-grey;}
+                &.more {color:$purple; }
+            }
+     }
+    }
+    
+    
+    
+.form-box {  display: block;  position: relative;  padding-left: 30px;  margin-bottom: 15px;  cursor: pointer;  font-size: 18px;}
+.form-box input {  position: absolute;  z-index: -1;  opacity: 0;}
+.form-box .form-indicator {  position: absolute;  top: -2px;  left: 0;  height: 18px;  width: 18px;  background: transparent;  }
+.form-box .form-indicator {  border:solid 1px #838383;} 
+.form-box input:checked ~ .form-indicator {  border:solid 1px #fd6c6e;}   
+.form-box input:checked{  background: transparent; }
+.form-box .form-indicator:after {  content: '';  position: absolute;  display: none;}
+.form-box input:checked ~ .form-indicator:after {  display: block;}
+.form-box .form-checkbox .form-indicator:after {  left: 7px;  top: 2px;  width: 4px;  height: 10px;  border:1px solid #2f2b2c;  border-width: 0 1px 1px 0;  transform: rotate(45deg);}
+    
+   
+    
+}
+
+.mob-filter-header { display:block;  padding-bottom:25px; border-bottom: solid 1px $light-grey;}
+.close-apply { display:none;}
+.c-sort-list .sort-close { display:none; }
+
+.filter-header { color:$dark-grey; font-family:$open-sans !important; font-size: 16px;}
+.filter-clear { color:$light-grey; font-family:$open-sans; font-size: 16px; float:right; cursor:pointer;}
+
+
+.accor-scroll { max-height:150px; height:auto; }
+
+
+@media only screen and (max-width:767px) { 
+
+.c-accordian { background-color:$white;  height: calc(100% - 41px); width: 100%; position: fixed; top: 72px; z-index: 11; left: -100%; padding: 10px; overflow-y: scroll;
+    .mob-filter-header { padding-bottom:25px; border-bottom: solid 1px $light-grey; margin-bottom:25px; display:block;}
+     &.c-accordian-mob-show { left: 0;
+    
+         .close-apply { background-color:$light-grey; position:fixed; bottom:0; left:0; width:100%; display:block; cursor:pointer;
+             ul{ margin:0; padding:0; text-align: center;
+                 li{ list-style:none; float:left; width:50%; padding:12px; position:relative; border-right:solid 1px $white; color:$white;font-family:$open-sans; font-size:15px; 
+                     &:last-child{ border:none;}
+                 }
+             }
+             
+         }
+    }
+    .accor-section { padding: 15px 15px 15px 0;
+        &:last-child{ padding:15px 15px 50px 0}
+    
+    }
+    
+    }
+    
+    .c-sort-list .sort-close { display:block; }
+}
+
+
+@media only screen and (min-width:441px) and (max-width:767px) { 
+.c-accordian.c-accordian-mob-show { top: 123px; }
+    
+}

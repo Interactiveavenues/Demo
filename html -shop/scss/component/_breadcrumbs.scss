@@ -1,0 +1,24 @@
+.c-breadcrumbs { margin-top:10px; background-color:rgba(255, 255, 255, 0.5); z-index: 1; 
+    
+    ul { margin:0; padding:0;
+    
+        li { font-size:13px; color:$light-grey; display:inline-block; float:left; padding:5px 15px 5px 5px; position:relative;
+            a{ color:$light-grey;
+                
+                &:hover { color:$dark-grey; }
+            }
+            &:after { content:"/"; position:absolute; text-align: center; top:50%; right:4px; font-size:14px;  transform:translateY(-50%);}
+            
+            &:last-child:after { content:none;}
+            &.active { color:$dark-grey; }
+        }
+    }
+    
+}
+.c-breadcrumbs-spotlight { position:absolute; left:0; top:0; margin-top:0;}
+
+@media only screen and (min-width:320px) and (max-width:320px) {
+
+.c-breadcrumbs-spotlight { top:5px;}
+    
+}
